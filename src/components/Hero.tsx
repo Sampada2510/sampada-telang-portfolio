@@ -28,7 +28,7 @@ const Hero = ({ profileImage }: HeroProps) => {
           </div>
           <div className="order-1 lg:order-2 flex flex-col items-center animate-fade-in-right">
             <div className="rounded-full p-1 bg-gradient-to-r from-portfolio-purple to-portfolio-blue mb-4">
-              <div className="rounded-full overflow-hidden w-64 h-64 md:w-72 md:h-72 border-4 border-portfolio-card">
+              <div className="rounded-full overflow-hidden w-[70.4px] h-[70.4px] md:w-[79.2px] md:h-[79.2px] border-4 border-portfolio-card">
                 <img 
                   src={profileImage} 
                   alt="Sampada Telang" 

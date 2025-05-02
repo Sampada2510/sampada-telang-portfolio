@@ -22,35 +22,33 @@ const About = () => {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="portfolio-card">
-                <h3 className="text-xl font-semibold mb-3 text-white">What I Do</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <span className="text-portfolio-purple">✅</span>
-                    <span className="text-gray-300">Test planning & strategy creation aligned with business goals</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-portfolio-purple">✅</span>
-                    <span className="text-gray-300">Designing high-impact test cases and scenarios that catch edge cases early</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-portfolio-purple">✅</span>
-                    <span className="text-gray-300">Executing and managing functional, non-functional, regression, and exploratory testing cycles</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-portfolio-purple">✅</span>
-                    <span className="text-gray-300">Deciding what to automate and what not to—based on stability, repeatability, and cost-benefit analysis</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-portfolio-purple">✅</span>
-                    <span className="text-gray-300">Performance testing using tools like JMeter, identifying bottlenecks before users do</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-portfolio-purple">✅</span>
-                    <span className="text-gray-300">Collaborating cross-functionally to embed quality into the entire SDLC</span>
-                  </li>
-                </ul>
+            <div className="portfolio-card">
+              <h3 className="text-xl font-semibold mb-3 text-white">What I Do</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="flex items-start gap-2">
+                  <span className="text-portfolio-purple">✅</span>
+                  <span className="text-gray-300">Test planning & strategy creation aligned with business goals</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-portfolio-purple">✅</span>
+                  <span className="text-gray-300">Designing high-impact test cases and scenarios that catch edge cases early</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-portfolio-purple">✅</span>
+                  <span className="text-gray-300">Executing and managing functional, non-functional, regression, and exploratory testing cycles</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-portfolio-purple">✅</span>
+                  <span className="text-gray-300">Deciding what to automate and what not to—based on stability, repeatability, and cost-benefit analysis</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-portfolio-purple">✅</span>
+                  <span className="text-gray-300">Performance testing using tools like JMeter, identifying bottlenecks before users do</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-portfolio-purple">✅</span>
+                  <span className="text-gray-300">Collaborating cross-functionally to embed quality into the entire SDLC</span>
+                </div>
               </div>
             </div>
           </div>
