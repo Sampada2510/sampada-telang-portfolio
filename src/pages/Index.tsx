@@ -9,8 +9,8 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const Index = () => {
-  // Use the uploaded profile image
-  const profileImage = "/lovable-uploads/7793a8b2-b5ca-427a-b451-8079853f9538.png";
+  // Use the new uploaded profile image
+  const profileImage = "/lovable-uploads/2cd5715d-2838-4cfc-9368-2e443921b70e.png";
 
   return (
     <div className="min-h-screen bg-portfolio-background text-white">
