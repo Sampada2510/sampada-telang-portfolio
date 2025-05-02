@@ -6,7 +6,7 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-3">
             <div className="portfolio-card mb-6">
               <p className="text-gray-300 mb-4">
                 Hey there! I'm a passionate Software Quality Assurance Engineer with over six years of experience making sure software doesn't just function—but functions flawlessly. My work spans the full QA lifecycle: from test planning and scenario design to execution and automation, all focused on ensuring consistent, high-quality releases.
@@ -17,14 +17,12 @@ const About = () => {
               <p className="text-gray-300 mb-4">
                 What sets me apart is how I approach QA: not as an isolated task, but as a full-stack responsibility. I dig deep into requirements, architecture, and edge cases, and bring that insight into every test I design. I'm hands-on with test automation, contribute to DevOps workflows, and am often the go-to person when something goes wrong in production.
               </p>
-              <p className="text-gray-300">
+              <p className="text-gray-300 mb-6">
                 Beyond tools and test cases, I see QA as the glue that holds cross-functional teams together. It's about understanding the product, anticipating risks, and helping everyone—from developers to stakeholders—work smarter and ship with confidence. That's the kind of leadership I bring to every project.
               </p>
-            </div>
-            
-            <div className="portfolio-card">
+              
               <h3 className="text-xl font-semibold mb-3 text-white">What I Do</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-2">
                 <div className="flex items-start gap-2">
                   <span className="text-portfolio-purple">✅</span>
                   <span className="text-gray-300">Test planning & strategy creation aligned with business goals</span>
@@ -52,28 +50,24 @@ const About = () => {
               </div>
             </div>
           </div>
-          
-          <div>
-            <div className="portfolio-card">
-              <h3 className="text-xl font-semibold mb-3 text-white">Education</h3>
-              <div className="space-y-4">
-                <div className="border-l-2 border-portfolio-purple pl-4 py-2">
-                  <h4 className="font-medium text-white">THE STATE UNIVERSITY OF NEW YORK AT BUFFALO</h4>
-                  <p className="text-gray-400">Master of Science, Management Information Systems</p>
-                  <p className="text-sm text-portfolio-purple">May 2025</p>
-                </div>
-                <div className="border-l-2 border-portfolio-purple pl-4 py-2">
-                  <h4 className="font-medium text-white">MODERN COLLEGE, PUNE UNIVERSITY</h4>
-                  <p className="text-gray-400">Master of Science, Computer Science</p>
-                  <p className="text-sm text-portfolio-purple">May 2018</p>
-                </div>
-                <div className="border-l-2 border-portfolio-purple pl-4 py-2">
-                  <h4 className="font-medium text-white">MODERN COLLEGE, PUNE UNIVERSITY</h4>
-                  <p className="text-gray-400">Bachelor of Science, Computer Science</p>
-                  <p className="text-sm text-portfolio-purple">May 2016</p>
-                </div>
-              </div>
-            </div>
+        </div>
+        
+        <h3 className="text-xl font-semibold mb-4 mt-8 text-white">Education</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="portfolio-card">
+            <h4 className="font-medium text-white">THE STATE UNIVERSITY OF NEW YORK AT BUFFALO</h4>
+            <p className="text-gray-400">Master of Science, Management Information Systems</p>
+            <p className="text-sm text-portfolio-purple">May 2025</p>
+          </div>
+          <div className="portfolio-card">
+            <h4 className="font-medium text-white">MODERN COLLEGE, PUNE UNIVERSITY</h4>
+            <p className="text-gray-400">Master of Science, Computer Science</p>
+            <p className="text-sm text-portfolio-purple">May 2018</p>
+          </div>
+          <div className="portfolio-card">
+            <h4 className="font-medium text-white">MODERN COLLEGE, PUNE UNIVERSITY</h4>
+            <p className="text-gray-400">Bachelor of Science, Computer Science</p>
+            <p className="text-sm text-portfolio-purple">May 2016</p>
           </div>
         </div>
       </div>
