@@ -11,7 +11,7 @@ const Hero = ({ profileImage }: HeroProps) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 animate-fade-in py-4">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6 gradient-text">
+            <h1 className="text-[1.95rem] sm:text-[2.95rem] font-bold mb-6 gradient-text">
               Quality Assurance Engineer
             </h1>
             <p className="text-xl text-gray-300 mb-8">
