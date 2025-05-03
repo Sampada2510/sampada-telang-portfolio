@@ -7,11 +7,11 @@ interface HeroProps {
 
 const Hero = ({ profileImage }: HeroProps) => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20">
+    <section id="home" className="min-h-screen flex items-start pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 animate-fade-in py-4">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-10 gradient-text">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4 gradient-text">
               Quality Assurance Engineer
             </h1>
             <p className="text-xl text-gray-300 mb-8">
