@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   // Use the newly uploaded profile image
-  const profileImage = "/sampada-telang-portfolio/profile.jpg";
+  const profileImage = "/sampada-telang-portfolio/profile.jpeg";
 
   return (
     <div className="min-h-screen bg-portfolio-background text-white">
