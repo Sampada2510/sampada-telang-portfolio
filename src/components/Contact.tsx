@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="portfolio-card">            
             <h4 className="text-2xl font-semibold mb-4 gradient-text">Let's Connect</h4>
             <p className="text-gray-300 mb-8">
-              I'm currently exploring new opportunities in Quality Assurance and Test Automation Engineering. If you're looking for someone to enhance your software quality processes, I'd love to chat.
+              I'm currently exploring full-time opportunities as a Quality Assurance/Test Automation Engineer or a Data Analyst. I bring proven expertise in both areas and am confident in my ability to add value through reliable testing or data-driven insights. If you're hiring for either role, I’d love to chat.
             </p>
             
             <div className="space-y-6">
