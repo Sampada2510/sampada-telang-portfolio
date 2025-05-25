@@ -20,6 +20,9 @@ const About = () => {
               <p className="text-gray-300 mb-6">
                 Beyond tools and test cases, I see QA as the glue that holds cross-functional teams together. It's about understanding the product, anticipating risks, and helping everyone—from developers to stakeholders—work smarter and ship with confidence. That's the kind of leadership I bring to every project.
               </p>
+              <p className="text-gray-300 mb-4">
+                It's also about understanding the data behind the product as much as the product itself. Over the years, I’ve worked extensively with SQL for data validation and debugging, and supported data integrity efforts across complex pipelines. I’ve built internal reports and maintained dashboards using Tableau and Power BI, and collaborated closely with data teams to ensure clean, accurate, and actionable data. My familiarity with Snowflake and cloud platforms helps me bridge the gap between quality assurance and data analysis, making me a valuable asset in both QA and data-focused roles.
+              </p>
               
               <h3 className="text-xl font-semibold mb-3 text-white">What I Do</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-2">

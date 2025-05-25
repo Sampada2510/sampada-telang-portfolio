@@ -9,11 +9,13 @@ const Experience = () => {
       period: "March 2023 - May 2024",
       location: "Pune, India",
       responsibilities: [
-        "Led test plan development, test case development, and user acceptance testing (UAT) for a contract lifecycle management SaaS platform, reducing post-release defects and improving test accuracy.",
-        "Automated UI and API test suites using Selenium-Python-Behave, cutting manual testing efforts and improving test execution speed.",
-        "Established validation procedures for the cloud platform via AWS S3, EC2, and CloudWatch, supplemented by API testing via Postman/Swagger: personally authored test cases to ensure comprehensive coverage.",
-        "Collaborated with DevOps to integrate testing into CI/CD pipelines using Jenkins and Docker, reducing deployment failures and improving release efficiency.",
-        "Spearheaded exploratory manual software testing for web applications, identifying and documenting critical edge cases; leveraged SQL and debugging skills to expedite defect resolution, resulting in faster software releases."
+        "Worked on an AI/NLP-powered Contract Lifecycle Management SaaS platform focused on contract clause extraction and editing.",
+        "Led test planning, UAT, and end-to-end QA for intelligent legal-tech features to ensure functionality, risk coverage, and data integrity.",
+        "Built a test automation framework using Selenium, Python, and Behave to streamline regression testing.",
+        "Worked alongside DevOps and QA teams on CI/CD pipelines for test execution and release coordination.",
+        "On the data side, supported data quality efforts by writing SQL validation queries, monitoring pipeline outputs, and creating structured checklists to ensure accuracy during clause processing.",
+        "Maintained internal dashboards and collaborated with cross-functional teams to surface insights related to product performance, clause accuracy, and user workflows.",
+        "Closely collaborated with engineering and data teams to troubleshoot issues in AI/NLP data models and assist with schema updates and production transitions."
       ]
     },
     {
@@ -22,12 +24,16 @@ const Experience = () => {
       period: "July 2021 - January 2023",
       location: "Pune, India",
       responsibilities: [
-        "Revamped the test automation framework for the audio/video streaming platform, conducting thorough manual tests during the development phase, mentored junior engineers, and personally automated test cases within the first month.",
-        "Led the test automation team, developing a Selenium-Ruby-Cucumber BDD framework with Page Object Model (POM) for an enterprise video platform, streamlining test maintenance, promoting reusability, and reducing regression testing time.",
-        "Enhanced CI/CD pipeline testing with Jenkins, Docker and Kibana, reducing deployment time and improving system stability and developed shell scripts and XML configurations to automate the build/deployment process.",
-        "Drove performance and load testing using JMeter to elevate system scalability, identifying bottlenecks and presenting findings to fix the biggest causes of crashes.",
-        "Implemented Agile Scrum methodologies, including active participation in Sprint Planning and Jira issue tracking, facilitating cross-functional collaboration between business analysts, developers, and DevOps teams, accelerated issue resolution times and improved software delivery cycles."
+        "Worked on a video-based SaaS platform focused on live event streaming, taking ownership of testing and support for mission-critical features.",
+        "Led automation efforts by developing a Selenium–Ruby–Cucumber BDD framework using the Page Object Model (POM), improving test reusability and reducing maintenance overhead.",
+        "Mentored junior QA engineers and guided test case development to improve functional coverage and streamline regression cycles.",
+        "Acted as the primary QA point of contact for the Live Event feature, collaborating with DevOps and engineering teams to support smooth deployments and resolve critical production issues.",
+        "Worked with CI/CD pipelines using Jenkins and Docker, and regularly used AWS CloudWatch to debug runtime issues, monitor EC2 instances, and ensure infrastructure stability during live sessions.",
+        "Used SQL extensively for backend validation, root cause analysis, and ensuring data consistency across usage logs and event processing flows.",
+        "Collaborated with cross-functional teams to define and track issue resolution through Agile ceremonies, Jira workflows, and stakeholder reviews.",
+        "Gained exposure to system behavior under varying loads and contributed to readiness testing for high-traffic live events."
       ]
+
     },
     {
       company: "Riverus Technology Solutions",
@@ -35,10 +41,17 @@ const Experience = () => {
       period: "January 2018 - July 2021",
       location: "Pune, India",
       responsibilities: [
-        "Engineered test automation for legal tech platform, crafting a Selenium-Java-TestNG framework, covering regression and smoke tests, also developed manual test scripts for acceptance testing improving execution speed and accuracy.",
-        "Piloted API testing strategies using Postman, and SQL data validation strategies, which increased data pipeline robustness and report accuracy, while collaborating with cross-functional teams to increase test coverage.",
-        "Conducted comprehensive integration, regression, and functional testing, and resolved critical defects before launch, improving product stability and enhancing stakeholder confidence.",
-        "Designed and implemented cloud testing strategies for AWS Web Services (AWS S3, EC2, CloudWatch, Route 53, and Docker), improving system performance and scalability, while providing detailed Defect reporting that reduced the resolution time."
+        "Worked on an AI/NLP-driven legal tech platform that processed court case documents to extract key legal data points and provide structured insights to end users.",
+        "Took full ownership of QA across web and mobile applications, covering manual, automated, backend, and data-centric testing.",
+        "Built and maintained a Selenium–Java–TestNG automation framework to support regression and smoke testing.",
+        "Designed and executed cloud testing strategies using AWS services to ensure scalability and performance.",
+        "Defined and implemented API testing strategies using Postman and SQL for AI-powered features that handled complex legal document processing.",
+        "Conducted integration, functional, and regression testing to maintain system stability across continuous deployments.",
+        "Participated in Agile workflows and served as the primary QA contact for production support and issue resolution.",
+        "Worked closely with structured and unstructured legal datasets, developing and maintaining SQL scripts for data extraction, validation, and reporting.",
+        "Produced automated reports and internal dashboards to track system uptime, user engagement, and classification accuracy.",
+        "Identified and resolved data pipeline issues by monitoring schema changes, cleaning datasets, and performing root cause analysis of inconsistencies.",
+        "Early in the role, contributed to annotation and labeling for training data models and later supported model validation through testing and data analysis."
       ]
     }
   ];
