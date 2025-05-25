@@ -15,7 +15,7 @@ const Hero = ({ profileImage }: HeroProps) => {
               Quality Assurance Engineer
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Software QA Engineer | 6+ years in Test Automation | SDET | Agile & Scrum | Data Quality | Committed to enhancing software reliability
+              Software QA Engineer | 6+ Years in Test Automation | Actively Seeking Full-Time Opportunities | Agile & Scrum | End-to-End Systems Ownership | Data and SQL | Data and Quality Analyst
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#contact" className="button-primary flex items-center gap-2">

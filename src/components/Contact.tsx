@@ -31,7 +31,7 @@ const Contact = () => {
               </a>
               
               <a 
-                href="mailto:telangsampada68@gmail.com" 
+                href="mailto:sampadatelang25@gmail.com" 
                 className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors duration-300"
               >
                 <div className="p-3 bg-portfolio-purple/20 rounded-full">
@@ -39,6 +39,19 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-white">Email</p>
+                  <p className="text-sm">sampadatelang25@gmail.com</p>
+                </div>
+              </a>
+
+              <a 
+                href="mailto:telangsampada68@gmail.com" 
+                className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors duration-300"
+              >
+                <div className="p-3 bg-portfolio-purple/20 rounded-full">
+                  <Mail className="h-6 w-6 text-portfolio-purple" />
+                </div>
+                <div>
+                  <p className="font-medium text-white">Alternate Email</p>
                   <p className="text-sm">telangsampada68@gmail.com</p>
                 </div>
               </a>
