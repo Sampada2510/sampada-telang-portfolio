@@ -12,7 +12,7 @@ const Hero = ({ profileImage }: HeroProps) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 animate-fade-in py-4">
             <h1 className="text-[2.85rem] sm:text-[2.95rem] font-bold mb-4 gradient-text">
-              Quality Assurance Engineer
+              Quality Assurance & Data Analytics Specialist
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Software QA Engineer | 6+ Years in Test Automation | Actively Seeking Full-Time Opportunities | Agile & Scrum | End-to-End Systems Ownership | Data and SQL | Data and Quality Analyst
