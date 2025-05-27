@@ -64,7 +64,9 @@ const Skills = () => {
         "CI/CD Pipelines", 
         "Automated Build & Deployment", 
         "SOAP and REST Web Services", 
-        "GITHUB"
+        "GITHUB",
+        "Power BI",
+        "Tableau"
       ]
     }
   ];
